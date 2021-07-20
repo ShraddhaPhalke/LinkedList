@@ -36,7 +36,6 @@ int main()
 	int value = 0;
 	int pos = 0;
 	
-	
 	while(choice <=9)
 	{
 
@@ -47,7 +46,6 @@ int main()
 	printf(" 4 Insert at First \t 7 Delete from First\n");
 	printf(" 5 Insert at Last \t 8 Delete from Last\n");
 	printf(" 6 Insert at Position \t 9 Delete from Position\n\n");
-	
 	
 	printf("Enter your choice\n");
 	scanf("%d",&choice);
@@ -105,9 +103,6 @@ int main()
 	
 	}
 	}	
-			
-	 
-
 return 0;
 }	
 
